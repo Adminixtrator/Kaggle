@@ -4,4 +4,5 @@ import os
 
 file = open('crime.txt', 'r')
 content = file.read()
-print(content)
+myData = DataFrame(list(content))
+myData
